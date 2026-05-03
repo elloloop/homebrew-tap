@@ -1,16 +1,16 @@
 # elloloop/homebrew-tap
 
-Homebrew formulas for elloloop tools.
+Homebrew formulas for elloloop tools (stax).
 
 ## Usage
 
 ```sh
 brew tap elloloop/tap
-brew install devpod
+brew install stax
 ```
 
 ## Available formulas
 
 | Formula | Description |
 | --- | --- |
-| `devpod` | Local-first GitHub Actions runner and stacked-diff CLI — see [elloloop/devpod](https://github.com/elloloop/devpod) |
+| `stax` | Local-first GitHub Actions runner and stacked-diff CLI — see [elloloop/stax](https://github.com/elloloop/stax) |
