@@ -19,4 +19,10 @@ cask "stax" do
     "~/Library/LaunchAgents/com.stax.desktop.plist",
     "~/Library/Saved Application State/com.stax.desktop.savedState",
   ]
+
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Stax.app"]
+  end
+
 end
