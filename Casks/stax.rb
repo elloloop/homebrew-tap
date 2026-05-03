@@ -10,7 +10,7 @@ cask "stax" do
   depends_on formula: "node"
 
   app "Stax.app"
-  binary "#{appdir}/Stax.app/Contents/Resources/bin/stax"
+  binary "#{appdir}/Stax.app/Contents/Resources/resources/bin/stax"
 
   zap trash: [
     "~/Library/Application Support/Stax",
