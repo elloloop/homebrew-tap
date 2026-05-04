@@ -1,6 +1,6 @@
 cask "stax" do
-  version "2.4.0"
-  sha256 "0a5543fb87e48abb837348e2bbf124492493aeb6df94ed095d8a07821861f056"
+  version "2.4.1"
+  sha256 "d610626188cd0e1138ce7964274f58ab43c039b986ae00fe89b512aaf8531476"
 
   url "https://github.com/elloloop/stax/releases/download/v#{version}/Stax-v#{version}-universal.dmg"
   name "Stax"
